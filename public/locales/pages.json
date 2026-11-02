@@ -1,0 +1,34 @@
+{
+  "pages": {
+    "en": {
+      ": Antwortfrist abgelaufen, {0} von {1} haben geantwortet.": ": response deadline passed, {0} of {1} have responded.",
+      "Ablauf geöffnet — dort bestätigen": "Workflow opened — confirm there",
+      "Aktuell läuft nichts — zuletzt bearbeitet: „{0}“.": "Nothing is currently running — last edited: \"{0}\".",
+      "Alle haben bei „{0}“ geantwortet — du kannst entscheiden.": "Everyone has responded to \"{0}\" — you can decide.",
+      "Alle {0} haben geantwortet": "All {0} have responded",
+      "Antwort erfassen": "Record response",
+      "Antworten ausstehend": "Responses pending",
+      "Antworten fehlen": "Responses missing",
+      "Bereit zur Entscheidung": "Ready for decision",
+      "Die Frist von „{0}“ ist abgelaufen — Zeit, einen Termin festzulegen.": "The deadline for \"{0}\" has passed — time to set a date.",
+      "Dieser Statuswechsel läuft über den Ablauf oder „Bearbeiten“ im Datensatz": "This status change is handled via the workflow or \"Edit\" in the record",
+      "Einladung versenden": "Send invitation",
+      "Festlegen": "Set",
+      "Frist {0}": "Deadline {0}",
+      "Frist {0} · noch keine Teilnehmer": "Deadline {0} · no participants yet",
+      "Frist {0} · {1}/{2} Antworten": "Deadline {0} · {1}/{2} responses",
+      "Im Ablauf bestätigen": "Confirm in workflow",
+      "Laufende Abstimmungen": "Active polls",
+      "Lege deine erste Terminabstimmung an und lade Teilnehmer ein.": "Create your first scheduling poll and invite participants.",
+      "Neue Abstimmung": "New poll",
+      "Niemand muss gerade erinnert werden.": "No one needs to be reminded right now.",
+      "Noch keine Abstimmung mit vollständigen Antworten.": "No poll with complete responses yet.",
+      "Termin festlegen": "Set date",
+      "Termin {0}": "Date {0}",
+      "und {0} weitere: Antwortfrist abgelaufen, Entscheidung offen.": "and {0} more: response deadline passed, decision pending.",
+      "{0} ausstehend": "{0} pending",
+      "„{0}“ wartet noch auf {1} Antworten, Frist {2}.": "\"{0}\" is still waiting for {1} responses, deadline {2}."
+    }
+  },
+  "v": 1
+}

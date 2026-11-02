@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "Terminabstimmungen": {
+      "placeholders_set": 16,
+      "defaults_keys": [
+        "status",
+        "antwortfrist",
+        "standarddauer_minuten",
+        "zeitzone"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da keine Preise oder zusammengehörigen Datumspaare für eine Dauer vorhanden sind (festgelegt_am und abgesagt_am sind keine Paare)."
+    },
+    "Terminvorschläge": {
+      "placeholders_set": 11,
+      "defaults_keys": [
+        "start",
+        "reihenfolge",
+        "final_gewaehlt"
+      ],
+      "computed_keys": [
+        "_termin_dauer_stunden"
+      ],
+      "reason": "Die Dauer zwischen start und ende wird als virtuelle Stundenanzahl berechnet, da es kein echtes Dauerfeld gibt und keine Preise erreichbar sind."
+    },
+    "Teilnehmer": {
+      "placeholders_set": 12,
+      "defaults_keys": [
+        "einladungsstatus",
+        "vollstaendig_abgesagt"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da Teilnehmer reine Stammdaten ohne numerische Berechnungskette sind."
+    },
+    "Rückmeldungen": {
+      "placeholders_set": 6,
+      "defaults_keys": [
+        "antwortzeitpunkt",
+        "letzte_aenderung"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da die Rückmeldung nur Auswahlen, Zeitstempel und einen Kommentar ohne numerische Berechnung enthält."
+    },
+    "Alternative Terminvorschläge": {
+      "placeholders_set": 5,
+      "defaults_keys": [
+        "start",
+        "status"
+      ],
+      "computed_keys": [
+        "_vorschlag_dauer_minuten"
+      ],
+      "reason": "Start and ende form a date pair, so a virtual duration in minutes is computed; no price or quantity field exists."
+    }
+  }
+}
